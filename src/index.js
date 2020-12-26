@@ -4,12 +4,25 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+
+// THE QUICK BROWN FOX JUMPED OVER THE LAZY SHEEP DOG
+
 ReactDOM.render(
+  // THE QUICK BROWN FOX JUMPED OVER THE LAZY SHEEP DOG
   <React.StrictMode>
     <App />
   </React.StrictMode>,
-  document.getElementById('root')
+  // THE QUICK BROWN FOX JUMPED OVER THE LAZY SHEEP DOG
+  document.getElementById('root'),
+  func1()
 );
+
+function func1(){
+  console.log("test")
+}
+
+// THE QUICK BROWN FOX JUMPED OVER THE LAZY SHEEP DOG
+
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
